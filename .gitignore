@@ -1,0 +1,85 @@
+# -----------------------------
+# Python bytecode and caches
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------------------
+# Environment and secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Build / packaging artifacts
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+# Streamlit and local IDE state
+# -----------------------------
+.streamlit/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# -----------------------------
+# Project-generated runtime outputs
+# -----------------------------
+.chroma/
+audit_logs/
+reports/
+backup/
+
+# Generated data layers
+# (keep source/input data if you choose to version it)
+data/
+data/landing/
+data/profiles/
+data/sttm/
+data/bronze_layer/
+data/silver_layer/
+data/gold_layer/
+
+# Top-level raw dump/temp folder in this workspace
+raw/
+
+# -----------------------------
+# Logs and dumps
+# -----------------------------
+*.log
+*.out
+*.err
+*.pid
+*.jsonl
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -----------------------------
+# Office temp/lock files
+# -----------------------------
+~$*.pptx
+~$*.docx
+~$*.xlsx
